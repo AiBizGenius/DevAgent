@@ -63,7 +63,7 @@ agent.fetch_config()
 
 # Step 4: Generate GitHub Actions YAML
 print(agent.generate_pipeline())
-
+```
 ---
 
 ## 🛠 Setup
@@ -72,7 +72,7 @@ print(agent.generate_pipeline())
 git clone https://github.com/your-org/aura-agents.git
 cd aura-agents
 pip install -r requirements.txt
-
+```
 ---
 
 ## 🔒 Secrets Setup (Required)
@@ -97,7 +97,7 @@ aura-agents/
 ├── workflows/                  # Auto-generated GitHub Actions YAMLs
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## ⚙ Tech Stack
