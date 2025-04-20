@@ -65,7 +65,8 @@ agent.fetch_config()
 print(agent.generate_pipeline())
 ```
 ---
-
+🔁 **Workflow Initialized** – Shows the automated DevOps pipeline kicking off with GitHub Actions.
+![App Screenshot 4](Assets/ai_devops_workflow.png)
 ## 🛠 Setup
 
 ```bash
@@ -86,9 +87,14 @@ Before using the generated workflow, set the following secrets in your GitHub re
 | `GH_TOKEN`            | GitHub Personal Access Token     |
 
 ---
+🧠 **Repository Review Completed** – Codebase analyzed for CI/CD, Docker, and compliance setup.
+![App Screenshot 5](Assets/image1.jpg)
+
+
+🚀 **Deployment Review Done** – Highlights infrastructure readiness, cost estimate, and HIPAA concerns.
+![App Screenshot 6](Assets/image2.jpg)
 
 ## 🗂 Project Structure
-
 ```graphql
 aura-agents/
 ├── github_actions_agent.py     # Core orchestration logic
@@ -99,6 +105,11 @@ aura-agents/
 └── README.md
 ```
 ---
+
+🐳 **Docker Image Built** – Confirms successful creation of `myapp:latest` Docker image.
+![App Screenshot 7](Assets/image3.jpg)
+
+
 
 ## ⚙ Tech Stack
 
@@ -111,6 +122,9 @@ aura-agents/
 - **Data Modeling**: Pydantic
 
 ---
+
+⚙️ **CI/CD YAML Generated** – Auto-generated GitHub Actions pipeline for seamless integration and deployment.
+![App Screenshot 8](Assets/image4.jpg)
 
 ## 🤝 Contributing
 
